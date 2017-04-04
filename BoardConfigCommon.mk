@@ -27,6 +27,9 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 # Graphics
 USE_OPENGL_RENDERER := true
 
+# Camera
+TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
+
 # Global include changes
 #TARGET_SPECIFIC_HEADER_PATH += $(OMAP4_NEXT_FOLDER)/include
 
